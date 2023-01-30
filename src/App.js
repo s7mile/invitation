@@ -3,6 +3,7 @@ import './assets/css/App.css';
 import AppHeader from './components/AppHeader';
 import AppFooter from './components/AppFooter';
 import GuestBook from './components/GuestBook';
+import LoadMap from "./components/LoadMap";
 
 function App() {
 	return (
@@ -20,14 +21,7 @@ function App() {
 					<p>☆☆☆ ☆☆☆ 뭐시기</p>
 					<p>★★★ ★★★ 뭐시기</p>
 				</section>
-				<section class="loadmap">
-					<h3>찾아오시는 길</h3>
-					<ul>
-						<li><button type="button" class="nes-btn is-primary">티맵</button></li>
-						<li><button type="button" class="nes-btn is-primary">카카오네비</button></li>
-						<li><button type="button" class="nes-btn is-primary">네이버지도</button></li>
-					</ul>
-				</section>
+				<LoadMap />
 				<section class="nes-container with-title">
 					<h2 class="title">Buttons</h2>
 					<div id="buttons" class="item">
@@ -43,6 +37,11 @@ function App() {
 				<GuestBook />
 			</div>
 			<AppFooter />
+
+			<i class="icon-cloud-1"></i>
+			<i class="icon-cloud-2"></i>
+			<i class="icon-cloud-3"></i>
+			<i class="icon-cloud-4"></i>
 		</>
 	);
 }
