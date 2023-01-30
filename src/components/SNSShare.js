@@ -16,8 +16,8 @@ function SNSShare() {
 	}
 
 	return (
-        <button type="button" onClick={() => Share()} className="nes-btn">공유하기</button>
-	);
+        <button type="button" onClick={() => Share()} className="nes-btn is-primary sns-share-btn">공유하기</button>
+    );
 }
 
 export default SNSShare;

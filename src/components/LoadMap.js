@@ -1,7 +1,7 @@
 function LoadMap() {
 	return (
-		<section className="loadmap">
-			<h3>찾아오시는 길</h3>
+        <section className="nes-container is-rounded with-title loadmap">
+			<h2 className="title">Location</h2>
 			<ul>
 				<li><a href="tmap://search?name=더빅토리아웨딩파티" className="nes-btn is-warning">티맵</a></li>
 				<li><a href="tmap://search?name=더빅토리아웨딩파티" className="nes-btn is-warning">카카오네비</a></li>
