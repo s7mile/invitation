@@ -123,10 +123,10 @@ body::before {
 .loadmap li {
 	width: 532px;
 	padding: 0;
-	margin: 0;
+	margin: 0 0 10px;
 	list-style: none;
 }
-.loadmap li button {
+.loadmap li a {
 	width: 100%;
 	border-image-repeat: stretch;
 }
