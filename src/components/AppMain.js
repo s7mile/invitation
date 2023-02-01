@@ -1,5 +1,5 @@
 import Greeting from './Greeting';
-import LoadMap from "./LoadMap";
+import Location from "./Location";
 import SNSShare from "./SNSShare";
 import GuestBook from './GuestBook';
 // import { weddingHallName } from 'constants/constants'  
@@ -8,9 +8,9 @@ function AppMain() {
 	return (
 		<div className="container">
 			<Greeting />
-			<LoadMap />
-			<SNSShare />
+			<Location />
 			<GuestBook />
+			<SNSShare />
 
 
 			{/* <section className="nes-container with-title">
