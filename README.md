@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 간단한 온라인 초대장(청첩장) 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+단순 React 토이 프로젝트\
 
 ## Available Scripts
 
